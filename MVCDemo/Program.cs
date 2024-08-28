@@ -4,6 +4,7 @@ namespace MVCDemo
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine();
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddControllersWithViews();
 
